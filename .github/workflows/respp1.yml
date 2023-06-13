@@ -14,4 +14,4 @@ jobs:
     steps:
     - uses: actions/checkout@v3
     - name: run a python script
-      run: python .github/workflow/addpager1.py
+      run: python .github/workflows/addpager1.py
