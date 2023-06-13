@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Todosjuntos - Pregunta 1</title>
+   <style>
+      #content{
+         background-color: yellow;
+         border-style: solid;
+         border-width: 10px;
+         border-color: #000000;
+         border-radius: 10px;
+         height: 700px;
+   }
+      object{width:  123px; height: 600px; background-color: #e2ebff;}
+      #topBar{font-size: 32px; color:green;}
+   </style>
+</head>
+<body>
+   <div id="topBar"> <a href ="#" onclick="load_home()"> Resultados </a> </div>
+   <div id ="content"></div>
+   <script>
+        function load_home() {
+             document.getElementById("content").innerHTML+='<object type="text/html" data="sebastian.html" ></object>';
+
+             document.getElementById("content").innerHTML+='<object type="text/html" data="roberto.html" ></object>';
+             document.getElementById("content").innerHTML+='<object type="text/html" data="carla.html" ></object>';
+             document.getElementById("content").style.borderColor = "green";
+}
+   </script>
+</body>
+</html>
