@@ -1,4 +1,4 @@
-file_html = open("https://mtoledo76.github.io/respuestap1.html", "w")
+file_html = open("respuestap1.html", "w")
 # Adding the input data to the HTML file
 file_html.write("<!DOCTYPE html>")
 file_html.write("<html>")
